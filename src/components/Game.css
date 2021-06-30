@@ -1,0 +1,57 @@
+.selections-container{
+    display: block;
+    width: 50%;
+    margin: 3% auto;
+}
+.selections-container h4{
+    text-align: center;
+}
+.btn-container{
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+}
+.btn-container button{
+    cursor: pointer;
+}
+.weapon-img{
+    display: block;
+    margin: auto;
+}
+.btn{
+    display: block;
+    margin: 2% auto;
+    width: 18%;
+}
+.alerts{
+    margin: 3% 0;
+    text-align: center;
+}
+.scores{
+    width: 40%;
+    margin: auto;
+}
+#green{
+    color: green;
+}
+#red{
+    color: red;
+}
+.lost {
+  color: red;
+}
+.won {
+  color: green;
+}
+
+@media(max-width: 999px){
+    .selections-container{
+        width: 90%;
+    }
+    .weapon-img{
+        width: 50%;
+    }
+    .btn{
+        width: 60%;
+    }
+}
